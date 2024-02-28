@@ -2,23 +2,23 @@ import { Playground } from './playground';
 
 export const MOCK_PLAYGROUNDS: Playground[] = [
   {
-    id: 'legeplads.1',
-    name: 'Hauser Plads',
-    addressDescription: 'overfor Hauser Plads 16',
-    description: 'Godt sted til en legepause på byturen.',
-    position: {
-      lat: 55.682711143117565,
-      lng: 12.575818079682959
+    "id": "legeplads.1",
+    "name": "Havnegades trampolinpromenade",
+    "description": "Hop i trampolin med havnekig.",
+    "addressDescription": "Havnegade",
+    "position": {
+      "lat": 55.6767238736979,
+      "lng": 12.589685450548627
     }
   },
   {
-    id: 'legeplads.2',
-    name: 'Israels Plads',
-    addressDescription: 'ved Ahlefeldtsgade',
-    description: 'Legeplads med New Yorker-stemning.',
-    position: {
-      lat: 55.682657692613766,
-      lng: 12.568528509584322
+    "id": "legeplads.2",
+    "name": "Legepladsen på Christianshavns Vold - Panterens Bastion",
+    "description": "Fredelig, grøn plet til leg og grill.",
+    "addressDescription": "på Panterens Bastion",
+    "position": {
+      "lat": 55.669599877562,
+      "lng": 12.588571683898572
     }
   },
   {
