@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     </div>
   </main>
   `,
-  standalone: true
+  standalone: true,
 })
 export class AppComponent {
 }

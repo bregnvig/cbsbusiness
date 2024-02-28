@@ -27,7 +27,7 @@
       "dom"
     ],
     "paths": {
-      "@loopme/leaflet": ["src/libs/leaflet/src/index.ts"],
+      "@loopme/leaflet": ["libs/leaflet/src/index.ts"],
     }
   },
   "angularCompilerOptions": {
