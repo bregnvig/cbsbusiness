@@ -10,7 +10,7 @@ export class DistancePipe implements PipeTransform {
 
   constructor(private location: LocationService) { }
 
-  transform(position: Coordinate, location: Coordinate): string {
+  transform(position: Coordinate, location: Coordinate | undefined): string {
 
     if (!position || !location) {
       return 'Unknown';
