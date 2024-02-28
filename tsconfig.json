@@ -27,7 +27,7 @@
       "dom"
     ],
     "paths": {
-      "@cassiopeia/change": ["libs/leaflet/src/index.ts"],
+      "@loopme/leaflet": ["src/libs/leaflet/src/index.ts"],
     }
   },
   "angularCompilerOptions": {
