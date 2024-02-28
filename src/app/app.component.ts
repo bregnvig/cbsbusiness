@@ -1,15 +1,13 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   template: `
-  <main class="vh-100 d-flex justify-content-center align-items-center">
-    <div class="d-relative">
-      <img src="assets/angular.png" height="400">
-    </div>
-  </main>
+    <router-outlet/>
   `,
   standalone: true,
+  imports: [RouterOutlet]
 })
 export class AppComponent {
 }

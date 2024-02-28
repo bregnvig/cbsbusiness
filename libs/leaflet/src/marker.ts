@@ -3,3 +3,5 @@ export type Marker = {
   lng: number;
   message?: string;
 } | undefined;
+
+export type Markers = Marker[];
