@@ -1,4 +1,4 @@
-# Intro to Cphbusiness Lyngby
+# Intro to CBSbusiness Lyngby
 
 Created for the introduction to Angular at Cphbusiness Lyngby.
 
